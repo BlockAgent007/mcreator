@@ -1,0 +1,27 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "2 ",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:steelingot"
+    },
+    "1": {
+      "item": "steel_tools:steelingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "steel_tools:steelhoe",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "steel_tools:steelingot"
+    }
+  ],
+  "result": {
+    "item": "steel_tools:steelnugget",
+    "count": 9
+  }
+}

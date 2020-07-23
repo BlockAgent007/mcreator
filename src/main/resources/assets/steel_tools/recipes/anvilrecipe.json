@@ -1,0 +1,37 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:blockofsteel"
+    },
+    "1": {
+      "item": "steel_tools:blockofsteel"
+    },
+    "2": {
+      "item": "steel_tools:blockofsteel"
+    },
+    "4": {
+      "item": "steel_tools:steelingot"
+    },
+    "6": {
+      "item": "steel_tools:steelingot"
+    },
+    "7": {
+      "item": "steel_tools:steelingot"
+    },
+    "8": {
+      "item": "steel_tools:steelingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "data": 0,
+    "count": 1
+  }
+}

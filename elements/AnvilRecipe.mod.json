@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "Blocks.ANVIL#0"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BlockofSteel"
+      },
+      {
+        "value": "CUSTOM:BlockofSteel"
+      },
+      {
+        "value": "CUSTOM:BlockofSteel"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      },
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "anvilrecipe",
+    "namespace": "mod"
+  }
+}

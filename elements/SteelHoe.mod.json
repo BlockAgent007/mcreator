@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "steel_hoe",
+    "customModelName": "Normal",
+    "name": "Steel Hoe",
+    "creativeTab": {
+      "value": "CUSTOM:SteelItems"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 2,
+    "efficiency": 4.0,
+    "attackSpeed": 0.33,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 906,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SteelIngot"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "steel_tools:alloyfurnace"
+    },
+    "facing=north": {
+      "model": "steel_tools:alloyfurnace"
+    },
+    "facing=east": {
+      "model": "steel_tools:alloyfurnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "steel_tools:alloyfurnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "steel_tools:alloyfurnace",
+      "y": 270
+    }
+  }
+}

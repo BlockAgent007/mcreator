@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steel_tools:blocks/alloy_furnace_bottom",
+    "up": "steel_tools:blocks/steel_block",
+    "north": "steel_tools:blocks/alloy_furnace_front_off",
+    "east": "steel_tools:blocks/alloy_furnace_side",
+    "south": "steel_tools:blocks/alloy_furnace_side",
+    "west": "steel_tools:blocks/alloy_furnace_side",
+    "particle": "steel_tools:blocks/alloy_furnace_bottom"
+  }
+}

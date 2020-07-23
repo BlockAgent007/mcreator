@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SteelIngot"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      },
+      {
+        "value": "CUSTOM:SteelNugget"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "steelingotrecipe",
+    "namespace": "mod"
+  }
+}

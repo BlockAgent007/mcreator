@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steel_tools:blocks/steel_ore",
+    "up": "steel_tools:blocks/steel_ore",
+    "north": "steel_tools:blocks/steel_ore",
+    "east": "steel_tools:blocks/steel_ore",
+    "south": "steel_tools:blocks/steel_ore",
+    "west": "steel_tools:blocks/steel_ore",
+    "particle": "steel_tools:blocks/steel_ore"
+  }
+}

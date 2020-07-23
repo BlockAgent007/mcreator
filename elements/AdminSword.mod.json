@@ -1,0 +1,26 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "steel_sword",
+    "customModelName": "Normal",
+    "name": "Admin Sword",
+    "creativeTab": {
+      "value": "CUSTOM:Adminitems"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 999,
+    "efficiency": 999.0,
+    "attackSpeed": 9.0,
+    "enchantability": 999,
+    "damageVsEntity": 0.1,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "AdminSwordMobIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "AlloyFurnace",
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 372,
+          "y": 114
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 354,
+          "y": 186
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "inventory": "inherited",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "onTakenFromSlot": {
+            "name": "WhenAlloyFurnaceProductObtained"
+          },
+          "onStackTransfer": {
+            "name": "WhenAlloyFurnaceProductObtained"
+          },
+          "name": "Slot #3",
+          "x": 498,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Alloy Furnace",
+          "color": {
+            "value": -12961222,
+            "falpha": 0.0
+          },
+          "name": "Alloy Furnace",
+          "x": 263,
+          "y": 85
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

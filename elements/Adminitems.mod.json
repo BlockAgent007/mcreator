@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "Admin items",
+    "icon": {
+      "value": "CUSTOM:SteelSword"
+    },
+    "showSearch": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "nature_gem",
+    "customModelName": "Normal",
+    "name": "Nature Gem",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "stackSize": 64,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "destroyAnyBlock": false,
+    "stayInGridWhenCrafting": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "A gem full of power. As you hold it",
+      "you feel like mother nature is cuddling you gently."
+    ],
+    "hasGlow": false
+  }
+}

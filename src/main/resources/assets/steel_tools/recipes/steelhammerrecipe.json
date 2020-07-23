@@ -1,0 +1,36 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:steelingot"
+    },
+    "1": {
+      "item": "steel_tools:steelingot"
+    },
+    "2": {
+      "item": "steel_tools:steelingot"
+    },
+    "3": {
+      "item": "steel_tools:steelingot"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "steel_tools:steelingot"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "steel_tools:steelhammer",
+    "count": 1
+  }
+}

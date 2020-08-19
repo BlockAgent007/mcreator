@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "steel_tools:battery1"
+    },
+    "facing=north": {
+      "model": "steel_tools:battery1"
+    },
+    "facing=east": {
+      "model": "steel_tools:battery1",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "steel_tools:battery1",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "steel_tools:battery1",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "steel_tools:exchanger"
+    },
+    "facing=north": {
+      "model": "steel_tools:exchanger"
+    },
+    "facing=east": {
+      "model": "steel_tools:exchanger",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "steel_tools:exchanger",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "steel_tools:exchanger",
+      "y": 270
+    }
+  }
+}

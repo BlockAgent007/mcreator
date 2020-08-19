@@ -1,0 +1,42 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:coppernugget"
+    },
+    "1": {
+      "item": "steel_tools:coppernugget"
+    },
+    "2": {
+      "item": "steel_tools:coppernugget"
+    },
+    "3": {
+      "item": "steel_tools:coppernugget"
+    },
+    "4": {
+      "item": "steel_tools:coppernugget"
+    },
+    "5": {
+      "item": "steel_tools:coppernugget"
+    },
+    "6": {
+      "item": "steel_tools:coppernugget"
+    },
+    "7": {
+      "item": "steel_tools:coppernugget"
+    },
+    "8": {
+      "item": "steel_tools:coppernugget"
+    }
+  },
+  "result": {
+    "item": "steel_tools:copperingot",
+    "count": 1
+  }
+}

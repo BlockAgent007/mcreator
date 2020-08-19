@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "steel_tools:alloyfurnace"
+    },
+    "title": {
+      "translate": "advancements.industrialization.title"
+    },
+    "description": {
+      "translate": "advancements.industrialization.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "industrialization": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "steel_tools:alloyfurnace",
+            "count": {
+              "min": 1,
+              "max": 9999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "steel_tools:gotitforasteel"
+}

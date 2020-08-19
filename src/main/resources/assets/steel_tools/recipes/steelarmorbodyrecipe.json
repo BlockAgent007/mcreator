@@ -1,0 +1,39 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:steelingot"
+    },
+    "2": {
+      "item": "steel_tools:steelingot"
+    },
+    "3": {
+      "item": "steel_tools:steelingot"
+    },
+    "4": {
+      "item": "steel_tools:steelingot"
+    },
+    "5": {
+      "item": "steel_tools:steelingot"
+    },
+    "6": {
+      "item": "steel_tools:steelingot"
+    },
+    "7": {
+      "item": "steel_tools:steelingot"
+    },
+    "8": {
+      "item": "steel_tools:steelingot"
+    }
+  },
+  "result": {
+    "item": "steel_tools:steelarmorbody",
+    "count": 1
+  }
+}

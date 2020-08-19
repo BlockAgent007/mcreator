@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "steel_tools:steelarmorbody"
+    },
+    "title": {
+      "translate": "advancements.alloyarmor.title"
+    },
+    "description": {
+      "translate": "advancements.alloyarmor.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alloyarmor": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "steel_tools:gotitforasteel"
+}

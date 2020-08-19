@@ -1,0 +1,66 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "Battery1",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Battery",
+          "color": {
+            "value": -13290187,
+            "falpha": 0.0
+          },
+          "name": "Battery",
+          "x": 260,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Power Stored:",
+          "color": {
+            "value": -13158601,
+            "falpha": 0.0
+          },
+          "name": "Power Stored:",
+          "x": 298,
+          "y": 193
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "inherited",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 562,
+          "y": 80
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Battery"
+          },
+          "inventory": "inherited",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 408,
+          "y": 139
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

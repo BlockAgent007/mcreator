@@ -118,6 +118,10 @@ public class Elementssteel_tools implements IFuelHandler, IWorldGenerator {
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorAlloyFurnaceGUI.GUIID)
 				return new MCreatorAlloyFurnaceGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == MCreatorExchangerGUI.GUIID)
+				return new MCreatorExchangerGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == MCreatorBatteryGUI.GUIID)
+				return new MCreatorBatteryGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -125,6 +129,10 @@ public class Elementssteel_tools implements IFuelHandler, IWorldGenerator {
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
 			if (id == MCreatorAlloyFurnaceGUI.GUIID)
 				return new MCreatorAlloyFurnaceGUI.GuiWindow(world, x, y, z, player);
+			if (id == MCreatorExchangerGUI.GUIID)
+				return new MCreatorExchangerGUI.GuiWindow(world, x, y, z, player);
+			if (id == MCreatorBatteryGUI.GUIID)
+				return new MCreatorBatteryGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

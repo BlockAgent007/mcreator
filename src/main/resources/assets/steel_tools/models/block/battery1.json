@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steel_tools:blocks/battery_bottom",
+    "up": "steel_tools:blocks/battery_top",
+    "north": "steel_tools:blocks/battery_side",
+    "east": "steel_tools:blocks/battery_front",
+    "south": "steel_tools:blocks/battery_side",
+    "west": "steel_tools:blocks/battery_front",
+    "particle": "steel_tools:blocks/battery_bottom"
+  }
+}

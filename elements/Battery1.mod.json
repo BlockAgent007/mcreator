@@ -1,0 +1,96 @@
+{
+  "_fv": 5,
+  "_type": "block",
+  "definition": {
+    "texture": "battery_bottom",
+    "textureTop": "battery_top",
+    "textureLeft": "battery_front",
+    "textureFront": "battery_side",
+    "textureRight": "battery_front",
+    "textureBack": "battery_side",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 1,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Battery",
+    "specialInfo": [
+      "Stationary battery for storing more power and allowing wire input/output."
+    ],
+    "hardness": 5.0,
+    "resistance": 6.0,
+    "hasGravity": true,
+    "creativeTab": {
+      "value": "CUSTOM:EnergyManagement"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 1,
+    "isReplaceable": false,
+    "isFlammable": false,
+    "colorOnMap": "CYAN",
+    "creativePickItem": {
+      "value": ""
+    },
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 2,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": true,
+    "inventorySize": 2,
+    "inventoryStackSize": 1,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [
+      0,
+      1
+    ],
+    "onRightClicked": {
+      "name": "BatteryOnBlockRightClicked"
+    },
+    "onBlockAdded": {
+      "name": "Battery1BlockAdded"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "1": {
+      "item": "steel_tools:copperingot"
+    },
+    "2": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "3": {
+      "item": "steel_tools:battery"
+    },
+    "4": {
+      "item": "steel_tools:battery"
+    },
+    "5": {
+      "item": "steel_tools:battery"
+    },
+    "6": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "8": {
+      "item": "minecraft:stone",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "steel_tools:battery1",
+    "count": 1
+  }
+}

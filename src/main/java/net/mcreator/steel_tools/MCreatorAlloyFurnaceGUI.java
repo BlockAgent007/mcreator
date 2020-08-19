@@ -61,24 +61,11 @@ public class MCreatorAlloyFurnaceGUI extends Elementssteel_tools.ModElement {
 				inherited = new InventoryBasic("", true, 9);
 			this.addSlotToContainer(new Slot(inherited, 0, 44, 21) {
 			});
-			this.addSlotToContainer(new Slot(inherited, 1, 62, 21) {
+			this.addSlotToContainer(new Slot(inherited, 1, 62, 22) {
 			});
 			this.addSlotToContainer(new Slot(inherited, 2, 53, 57) {
 			});
-			this.addSlotToContainer(new Slot(inherited, 3, 125, 39) {
-				@Override
-				public ItemStack onTake(EntityPlayer entity, ItemStack stack) {
-					ItemStack retval = super.onTake(entity, stack);
-					GuiContainerMod.this.slotChanged(3, 1, 0);
-					return retval;
-				}
-
-				@Override
-				public void onSlotChange(ItemStack a, ItemStack b) {
-					super.onSlotChange(a, b);
-					GuiContainerMod.this.slotChanged(3, 2, b.getCount() - a.getCount());
-				}
-
+			this.addSlotToContainer(new Slot(inherited, 3, 124, 39) {
 				@Override
 				public boolean isItemValid(ItemStack stack) {
 					return false;
@@ -420,20 +407,5 @@ public class MCreatorAlloyFurnaceGUI extends Elementssteel_tools.ModElement {
 		// security measure to prevent arbitrary chunk generation
 		if (!world.isBlockLoaded(new BlockPos(x, y, z)))
 			return;
-		if (slotID == 3 && changeType == 1) {
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				MCreatorWhenAlloyFurnaceProductObtained.executeProcedure($_dependencies);
-			}
-		}
-		if (slotID == 3 && changeType == 2) {
-			int amount = meta;
-			{
-				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
-				$_dependencies.put("entity", entity);
-				MCreatorWhenAlloyFurnaceProductObtained.executeProcedure($_dependencies);
-			}
-		}
 	}
 }

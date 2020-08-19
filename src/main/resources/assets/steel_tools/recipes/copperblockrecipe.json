@@ -1,0 +1,42 @@
+{
+  "group": "steel_tools",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "steel_tools:copperingot"
+    },
+    "1": {
+      "item": "steel_tools:copperingot"
+    },
+    "2": {
+      "item": "steel_tools:copperingot"
+    },
+    "3": {
+      "item": "steel_tools:copperingot"
+    },
+    "4": {
+      "item": "steel_tools:copperingot"
+    },
+    "5": {
+      "item": "steel_tools:copperingot"
+    },
+    "6": {
+      "item": "steel_tools:copperingot"
+    },
+    "7": {
+      "item": "steel_tools:copperingot"
+    },
+    "8": {
+      "item": "steel_tools:copperingot"
+    }
+  },
+  "result": {
+    "item": "steel_tools:blockofcopper",
+    "count": 1
+  }
+}

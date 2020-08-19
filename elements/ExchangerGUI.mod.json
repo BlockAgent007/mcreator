@@ -1,0 +1,66 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "containerBlock": "Exchanger",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Exchanger",
+          "color": {
+            "value": -13158601,
+            "falpha": 0.0
+          },
+          "name": "Exchanger",
+          "x": 260,
+          "y": 83
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Status: <VAR:block_status>",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Status: <VAR:block_status>",
+          "x": 312,
+          "y": 185
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:ExchangerBatteryCharger"
+          },
+          "inventory": "inherited",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 554,
+          "y": 84
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Battery"
+          },
+          "inventory": "inherited",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 408,
+          "y": 132
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

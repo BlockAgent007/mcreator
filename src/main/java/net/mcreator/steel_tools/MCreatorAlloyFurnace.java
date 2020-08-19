@@ -96,7 +96,7 @@ public class MCreatorAlloyFurnace extends Elementssteel_tools.ModElement {
 
 		@Override
 		public int tickRate(World world) {
-			return 300;
+			return 1;
 		}
 
 		@Override

@@ -12,6 +12,8 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
 public class steel_toolsVariables {
+	public static String block_status = "";
+
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "steel_tools_mapvars";
 

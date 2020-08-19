@@ -1,8 +1,8 @@
 [
   {
     "modid": "steel_tools",
-    "name": "Steel_Tools",
-    "description": "",
+    "name": "Steel Tools",
+    "description": "A mod with machines and items made of mostly steel.",
     "version": "1.0.0",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "logoFile": "",
@@ -10,7 +10,7 @@
     "url": "https://mcreator.net",
     "updateUrl": "",
     "authorList": [
-      "Marcin",
+      "BlockAgent007",
       "MCreator"
     ],
     "dependencies": [],

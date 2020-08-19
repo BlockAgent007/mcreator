@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "steel_tools:blocks/red_copper_block",
+    "up": "steel_tools:blocks/red_copper_block",
+    "north": "steel_tools:blocks/red_copper_block",
+    "east": "steel_tools:blocks/red_copper_block",
+    "south": "steel_tools:blocks/red_copper_block",
+    "west": "steel_tools:blocks/red_copper_block",
+    "particle": "steel_tools:blocks/red_copper_block"
+  }
+}
